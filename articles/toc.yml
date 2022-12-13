@@ -1,0 +1,6 @@
+ - name: Home
+   href: ../index.md
+ - name: Guide
+   href: guide/
+ - name: Guide 2
+   href: guide2/
