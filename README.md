@@ -1,15 +1,15 @@
-# Linting
+# Linting with Vale and markdownlint
 
-- [Markdown formatting](#markdown-formatting)
+- [markdownlint - Markdown formatting](#markdownlint---markdown-formatting)
   - [Documentation](#documentation)
   - [See all markdownlint errors in a directory or tree](#see-all-markdownlint-errors-in-a-directory-or-tree)
-- [Spelling, grammar, style](#spelling-grammar-style)
+- [Vale - Spelling, grammar, style](#vale---spelling-grammar-style)
   - [Style guides](#style-guides)
     - [Example](#example)
     - [Customization](#customization)
     - [Spelling](#spelling)
 
-## Markdown formatting
+## markdownlint - Markdown formatting
 
 `markdownlint` is available as a VS Code extension. Rules are customizable.
 
@@ -47,9 +47,9 @@ Run this command at the root of the documentation repo:
 markdownlint 'articles/**/*.md' --config .markdownlint.JSONC
 ```
 
-[markdownlint-cli documentation and options](https://github.com/igorshubovych/markdownlint-cli#markdownlint-cli)
+> [markdownlint-cli documentation and options](https://github.com/igorshubovych/markdownlint-cli#markdownlint-cli)
 
-## Spelling, grammar, style
+## Vale - Spelling, grammar, style
 
 Vale is available as a VS Code extension or as a standalone CLI. Catalyst is not using Vale Server. Rules are customizable.
 
@@ -103,7 +103,7 @@ Text
 <!-- vale Linting.Spelling = YES -->
 ```
 
-[Source](https://errata-ai.github.io/vale-server/docs/ini#in-text-configuration)
+> [Source](https://errata-ai.github.io/vale-server/docs/ini#in-text-configuration)
 
 #### Customization
 
